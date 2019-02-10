@@ -1,6 +1,17 @@
 % !TEX program = xelatex 
 \documentclass[10pt,a4paper]{article}
 \input{layout.tex}
+
+\renewcommand{\PubItem}[4][\swallow]{%
+ {\color{blue!35!black} \textbf{#2}} % title
+ \hfill %
+ {#1 {|}}\newline % joint work (optional)
+ #3 % address/DOI
+ % \newline{\footnotesize #4}% abstract
+}
+
+
+
 \begin{document} 
 \begin{flushright}
    \begin{minipage}{0.3\textwidth}

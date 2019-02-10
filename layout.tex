@@ -10,7 +10,7 @@
 \newcommand{\header}[2][10]{\textcolor{blue! #1 !black}{\textbf{#2}}}
 
 \newenvironment{eyenumerate}%
-{ \begin{enumerate}[label=\arabic* | , itemsep=0pt] }%
+{ \begin{enumerate}[label=\arabic* | , itemsep=1pt] }%
   { \end{enumerate}\vspace{1em} }
 
 \usepackage{mathspec}
@@ -65,7 +65,7 @@
 
 \newcommand{\TalkItem}[3]{\header[40]{#1} \hfill \colorbox{gray!10}{#2} \newline #3}
 
-\newcommand{\RevItem}[3]{\header[20]{#1} \hfill \emph{#2} \newline #3\\[.5mm]}
+\newcommand{\RevItem}[3]{\header[20]{#1} \hfill \emph{#2} \newline #3}
 
 \newcommand{\MiscItem}{\relax}
 
