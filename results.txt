@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3Dall%3Aloregian%26id_list%3D%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=all:loregian&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/WgjMGfCTFmztHA+eFnMnxhL6WRk</id>
+  <updated>2019-02-09T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1802.08193v1</id>
+    <updated>2018-02-22T17:35:09Z</updated>
+    <published>2018-02-22T17:35:09Z</published>
+    <title>Localization theory for derivators</title>
+    <summary>  We outline the theory of reflections for prederivators, derivators and stable
+derivators. In order to parallel the classical theory valid for categories, we
+outline how reflections can be equivalently described as categories of
+fractions, reflective factorization systems, and categories of algebras for
+idempotent monads. This is a further development of the theory of monads and
+factorization systems for derivators.
+</summary>
+    <author>
+      <name>Fosco Loregian</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">40 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1802.08193v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1802.08193v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1408.7003v2</id>
+    <updated>2015-04-03T12:19:03Z</updated>
+    <published>2014-08-29T12:56:11Z</published>
+    <title>t-structures are normal torsion theories</title>
+    <summary>  We characterize $t$-structures in stable $\infty$-categories as suitable
+quasicategorical factorization systems. More precisely we show that a
+$t$-structure $\mathfrak{t}$ on a stable $\infty$-category $\mathbf{C}$ is
+equivalent to a normal torsion theory $\mathbb{F}$ on $\mathbf{C}$, i.e. to a
+factorization system $\mathbb{F}=(\mathcal{E},\mathcal{M})$ where both classes
+satisfy the 3-for-2 cancellation property, and a certain compatibility with
+pullbacks/pushouts.
+</summary>
+    <author>
+      <name>Domenico Fiorenza</name>
+    </author>
+    <author>
+      <name>Fosco Loregian</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1007/s10485-015-9393-z</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1007/s10485-015-9393-z" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Minor typographical corrections from v1; 25 pages; to appear in
+  "Applied Categorical Structures"</arxiv:comment>
+    <link href="http://arxiv.org/abs/1408.7003v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1408.7003v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="18E30, 18E35, 18A40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1704.00303v4</id>
+    <updated>2018-01-26T22:01:39Z</updated>
+    <published>2017-04-02T14:22:44Z</published>
+    <title>Homotopical algebra is not concrete</title>
+    <summary>  We generalize Freyd's well-known result that "homotopy is not concrete",
+offering a general method to show that under certain assumptions on a model
+category $\mathcal M$, its homotopy category $\text{ho}(\mathcal M)$ cannot be
+concrete. This result is part of an attempt to understand more deeply the
+relation between set theory and abstract homotopy theory.
+</summary>
+    <author>
+      <name>Fosco Loregian</name>
+    </author>
+    <author>
+      <name>Ivan Di Liberti</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1007/s40062-018-0197-3</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1007/s40062-018-0197-3" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Final version, accepted for publication on Journal of Homotopy and
+  Related Structures</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Journal of Homotopy and Related Structures (2017): 1-15</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1704.00303v4" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1704.00303v4" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="18G55, 18E35, 18A22" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1501.02503v4</id>
+    <updated>2017-12-04T10:26:19Z</updated>
+    <published>2015-01-11T22:24:02Z</published>
+    <title>This is the (co)end, my only (co)friend</title>
+    <summary>  The present note is a recollection of the most striking and useful
+applications of co/end calculus. We put a considerable effort in making
+arguments and constructions rather explicit: after having given a series of
+preliminary definitions, we characterize co/ends as particular co/limits; then
+we derive a number of results directly from this characterization. The last
+sections discuss the most interesting examples where co/end calculus serves as
+a powerful abstract way to do explicit computations in diverse fields like
+Algebra, Algebraic Topology and Category Theory. The appendices serve to sketch
+a number of results in theories heavily relying on co/end calculus; the reader
+who dares to arrive at this point, being completely introduced to the mysteries
+of co/end fu, can regard basically every statement as a guided exercise.
+</summary>
+    <author>
+      <name>Fosco Loregian</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">improvements from v3; reshuffling of some subsections; corrected
+  typos and an annoying problem with typesetting commutative diagrams. This
+  version "ready" for submission</arxiv:comment>
+    <link href="http://arxiv.org/abs/1501.02503v4" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1501.02503v4" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="18A23, 18A40, 18D20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1501.04658v2</id>
+    <updated>2017-06-30T20:48:01Z</updated>
+    <published>2015-01-19T22:19:01Z</published>
+    <title>Hearts and towers in stable infinity-categories</title>
+    <summary>  We exploit the equivalence between $t$-structures and normal torsion theories
+on a stable $\infty$-category to show how a few classical topics in the theory
+of triangulated categories, i.e., the characterization of bounded
+$t$-structures in terms of their hearts, their associated cohomology functors,
+semiorthogonal decompositions, and the theory of tiltings, as well as the more
+recent notion of Bridgeland's slicings, are all particular instances of a
+single construction, namely, the tower of a morphism associated with a
+$J$-slicing of a stable $\infty$-category $\mathcal C$, where $J$ is a totally
+ordered set equipped with a monotone $\mathbb{Z}$-action.
+</summary>
+    <author>
+      <name>Domenico Fiorenza</name>
+    </author>
+    <author>
+      <name>Fosco Loregian</name>
+    </author>
+    <author>
+      <name>Giovanni Marchetti</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">45 pages; total rehaul; a third author joined; larglely rewritten;
+  exposition improved</arxiv:comment>
+    <link href="http://arxiv.org/abs/1501.04658v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1501.04658v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="18E30, 18A32, 18E35, 16E35" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1804.08710v4</id>
+    <updated>2019-01-28T10:25:08Z</updated>
+    <published>2018-04-23T20:11:29Z</published>
+    <title>Accessibility and presentability in 2-categories</title>
+    <summary>  We outline a definition of accessible and presentable objects in a 2-category
+$\mathcal K$ endowed with a Yoneda structure; this perspective suggests a
+unified treatment of many "Gabriel-Ulmer like" theorems (like the classical
+Gabriel-Ulmer representation for locally presentable categories, Giraud
+theorem, and Gabriel-Popescu theorem), asserting how presentable objects arise
+as reflections of generating ones. In a 2-category with a Yoneda structure, two
+non-equivalent definitions of presentability for $A\in\mathcal K$ can in
+principle be given: in the most interesting, it is generally false that all
+presheaf objects $\boldsymbol{P}A$ are presentable; this leads to the
+definition of a Gabriel-Ulmer structure, i.e. a Yoneda structure rich enough to
+concoct Gabriel-Ulmer duality and to make this asymmetry disappear. We end the
+paper with a roundup of examples, involving classical (set-based and enriched),
+low dimensional and higher dimensional category theory.
+</summary>
+    <author>
+      <name>Ivan Di Liberti</name>
+    </author>
+    <author>
+      <name>Fosco Loregian</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">28 pages, revised version</arxiv:comment>
+    <link href="http://arxiv.org/abs/1804.08710v4" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1804.08710v4" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="18A05 18D05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.06129v1</id>
+    <updated>2018-06-15T21:28:30Z</updated>
+    <published>2018-06-15T21:28:30Z</published>
+    <title>Categorical notions of fibration</title>
+    <summary>  Fibrations over a category $B$, introduced to category theory by
+Grothendieck, encode pseudo-functors $B^{op} \rightsquigarrow {\bf Cat}$, while
+the special case of discrete fibrations encode presheaves $B^{op} \to {\bf
+Set}$. A two-sided discrete variation encodes functors $B^{op} \times A \to
+{\bf Set}$, which are also known as profunctors from $A$ to $B$. By work of
+Street, all of these fibration notions can be defined internally to an
+arbitrary 2-category or bicategory. While the two-sided discrete fibrations
+model profunctors internally to ${\bf Cat}$, unexpectedly, the dual two-sided
+codiscrete cofibrations are necessary to model $\cal V$-profunctors internally
+to $\cal V$-$\bf Cat$.
+</summary>
+    <author>
+      <name>Fosco Loregian</name>
+    </author>
+    <author>
+      <name>Emily Riehl</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">These notes were initially written by the second-named author to
+  accompany a talk given in the Algebraic Topology and Category Theory
+  Proseminar in the fall of 2010 at the University of Chicago. A few years
+  later, the now first-named author joined to expand and improve in minor ways
+  the exposition</arxiv:comment>
+    <link href="http://arxiv.org/abs/1806.06129v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1806.06129v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1901.01594v1</id>
+    <updated>2019-01-06T18:58:30Z</updated>
+    <published>2019-01-06T18:58:30Z</published>
+    <title>On the unicity of formal category theories</title>
+    <summary>  We prove an equivalence between cocomplete Yoneda structures and certain
+proarrow equipments on a 2-category $\mathcal K$. In order to do this, we
+recognize the presheaf construction of a cocomplete Yoneda structure as a
+relative, lax idempotent monad sending each admissible 1-cell $f :A \to B$ to
+an adjunction $\boldsymbol{P}_!f\dashv\boldsymbol{P}^*f$. Each cocomplete
+Yoneda structure on $\mathcal K$ arises in this way from a relative lax
+idempotent monad "with enough adjoint 1-cells", whose domain generates the
+ideal of admissibles, and the Kleisli category of such a monad equips its
+domain with proarrows. We call these structures "yosegi". Quite often, the
+presheaf construction associated to a yosegi generates an ambidextrous Yoneda
+structure; in such a setting there exists a fully formal version of Isbell
+duality.
+</summary>
+    <author>
+      <name>Ivan Di Liberti</name>
+    </author>
+    <author>
+      <name>Fosco Loregian</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">38 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1901.01594v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1901.01594v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="18D05, 18C20, 54B40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.08565v3</id>
+    <updated>2018-02-10T18:47:38Z</updated>
+    <published>2017-05-24T00:00:42Z</published>
+    <title>Factorization systems on (stable) derivators</title>
+    <summary>  We define triangulated factorization systems on triangulated categories, and
+prove that a suitable subclass thereof (the normal triangulated torsion
+theories) corresponds bijectively to $t$-structures on the same category. This
+result is then placed in the framework of derivators regarding a triangulated
+category as the base of a stable derivator. More generally, we define derivator
+factorization systems in the 2-category $\mathrm{PDer}$, describing them as
+algebras for a suitable strict 2-monad (this result is of independent
+interest), and prove that a similar characterization still holds true: for a
+stable derivator $\mathbb D$, a suitable class of derivator factorization
+systems (the normal derivator torsion theories) correspond bijectively with
+$t$-structures on the base $\mathbb{D}(\mathbb{1})$ of the derivator. These two
+result can be regarded as the triangulated- and derivator- analogues,
+respectively, of the theorem that says that `$t$-structures are normal torsion
+theories' in the setting of stable $\infty$-categories, showing how the result
+remains true whatever the chosen model for stable homotopy theory is.
+</summary>
+    <author>
+      <name>Fosco Loregian</name>
+    </author>
+    <author>
+      <name>Simone Virili</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">49 pages; corrected minor typos, changes in the proofs of Section 4</arxiv:comment>
+    <link href="http://arxiv.org/abs/1705.08565v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1705.08565v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.KT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D09, 18E30, 18E35, 18C15, 18C20, 18G99" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1507.03913v2</id>
+    <updated>2016-05-26T14:46:34Z</updated>
+    <published>2015-07-14T16:26:17Z</published>
+    <title>Recollements in stable $\infty$-categories</title>
+    <summary>  We develop the theory of recollements in a stable $\infty$-categorical
+setting. In the axiomatization of Beilinson, Bernstein and Deligne, recollement
+situations provide a generalization of Grothendieck's "six functors" between
+derived categories. The adjointness relations between functors in a recollement
+$\mathbf{D}^0\leftrightarrow \mathbf{D} \leftrightarrow \mathbf{D}^1$ induce a
+"recoll\'ee" $t$-structure $\mathfrak{t}_0\uplus\mathfrak{t}1$ on $\mathbf{D}$
+, given $t$-structures $\mathfrak{t}_0,\mathfrak{t}_1$ on $\mathbf{D}^0,
+\mathbf{D}^1$. Such a classical result, well-known in the setting of
+triangulated categories, is recasted in the setting of stable
+$\infty$-categories and the properties of the associated ($\infty$-categorical)
+factorization systems are investigated. In the geometric case of a stratified
+space, various recollements arise, which "interact well" with the combinatorics
+of the intersections of strata to give a well-defined, associative $\uplus$
+operation. From this we deduce a generalized associative property for $n$-fold
+gluing $\mathfrak{t}_0\uplus\cdots\uplus \mathfrak{t}_n$, valid in any stable
+$\infty$-category.
+</summary>
+    <author>
+      <name>Domenico Fiorenza</name>
+    </author>
+    <author>
+      <name>Fosco Loregian</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">The unexpected (and actually undue) symmetric behavior of stable
+  recollements (Lemma 4.3 v1) turned out to be the far reaching consequence of
+  a typo in one of the commutative diagrams on page 9. This has now been
+  corrected (i.e., Lemma 4.3 and his corollaries have been removed). Luckily,
+  this was only minimally affecting the remaining part of the article, which
+  has now been revised accordingly</arxiv:comment>
+    <link href="http://arxiv.org/abs/1507.03913v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1507.03913v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="18E30" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>
+

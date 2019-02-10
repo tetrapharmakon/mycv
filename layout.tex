@@ -1,0 +1,74 @@
+\usepackage{ xcolor
+, amsmath
+, amssymb
+, amsfonts
+, academicons
+, hyperref
+, enumitem }
+
+
+\newcommand{\header}[2][10]{\textcolor{blue! #1 !black}{\textbf{#2}}}
+
+\newenvironment{eyenumerate}%
+{ \begin{enumerate}[label=\arabic* | , itemsep=0pt] }%
+  { \end{enumerate}\vspace{1em} }
+
+\usepackage{mathspec}
+
+\setmainfont{Archivo Narrow}
+\setmonofont[Scale=.875]{Fira Mono}
+
+\newfontfamily{\titlefont}{Julius Sans One}
+
+\pagestyle{empty}
+\newcommand{\Item}[2]{#2 \hfill #1}
+
+\usepackage{graphicx}
+\def\faSkype {\includegraphics{faSkype.pdf}}
+\def\faUser  {\includegraphics{faUser.pdf}}
+\def\faMSE   {\includegraphics{faMSE.pdf}}
+\def\faGithub{\includegraphics{faGithub.pdf}}
+
+\newcommand{\MailItem}[2]{\texttt{\textcolor{red!60}{#2}} \hfill }
+\newcommand{\SectionOfCV}[2][]{
+ \colorbox{gray!10}{{\titlefont #2}} %
+ { \color{gray!10}\hrulefill } %
+ { \titlefont #1 }%
+ \newline
+}
+
+\newcommand{\arXiv}[1]{\href{http://arxiv.org/abs/#1}{#1}}
+
+\newcommand{\swallow}[1]{}
+\newcommand{\with}{\textcolor{gray!40}{w/}}
+\newcommand{\PubItem}[4][\swallow]{%
+ {\color{blue!35!black} \textbf{#2}} % title
+ \hfill %
+ {#1 {|}}\newline % joint work (optional)
+ #3 % address/DOI
+ \newline{\footnotesize #4}% abstract
+}
+
+\newcommand{\JobItem}[3]{
+ \header[80]{#1} %
+ \hspace{\fill} %
+ \colorbox{gray!10}{%
+  \hrulefill #2
+ }\newline #3}
+
+\newcommand{\EduItem}[4]{
+ \header[60]{#1} %
+ \hfill %
+ \colorbox{gray!10}{#2}\newline %
+ #3\newline %
+ {\small \textbf{thesis}: \textit{#4}}}
+
+\newcommand{\TalkItem}[3]{\header[40]{#1} \hfill \colorbox{gray!10}{#2} \newline #3}
+
+\newcommand{\RevItem}[3]{\header[20]{#1} \hfill \emph{#2} \newline #3\\[.5mm]}
+
+\newcommand{\MiscItem}{\relax}
+
+\hypersetup{colorlinks=true}
+
+\usepackage[left=3cm,right=3cm]{geometry}

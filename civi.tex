@@ -1,0 +1,43 @@
+% !TEX program = xelatex 
+\documentclass[10pt,a4paper]{article}
+\input{layout.tex}
+\begin{document}
+\begin{flushright}
+   \begin{minipage}{0.3\textwidth}
+      \Item{\faUser}{Fosco Loregian}\\[1em] %\faSmileO
+      \MailItem{@}{fosco.loregian@gmail.com}\\[-.2em] %\faEnvelopeO
+      \MailItem{\phantom{a}}{flore@mpim-bonn.mpg.de}\\[.5em] %\phantom
+      \Item{\faGithub}{tetrapharmakon}\newline
+      \Item{\faSkype}{\texttt{fosco.loregian}}\newline %\faSkype
+   \end{minipage}
+\end{flushright}
+
+\SectionOfCV{Research Interests}
+\begin{itemize}
+   \item[] Category theory and everything about.
+\end{itemize}
+\vspace{\fill}\noindent%
+
+\SectionOfCV[2012 | today]{Appointments}
+\input{appointments.tex}
+
+\SectionOfCV[2008 | 2012]{Education}
+\input{education.tex}
+\newpage
+
+\SectionOfCV{Publications}
+\input{publications.tex}
+
+\SectionOfCV{Preprints}
+\input{preprints.tex}
+
+\SectionOfCV{Talks}
+\input{talks.tex}
+
+\SectionOfCV{Teaching \& Organizational activities}
+\input{teaching.tex}
+
+\SectionOfCV{Other activities}
+\input{revsup.tex}
+
+\end{document}
