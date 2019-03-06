@@ -2,42 +2,50 @@
 \documentclass[10pt,a4paper]{article}
 \input{layout.tex}
 \begin{document} 
-\begin{flushright}
-   \begin{minipage}{0.3\textwidth}
-      \Item{\faUser}{Fosco Loregian}\\[1em] %\faSmileO
-      \MailItem{@}{fosco.loregian@gmail.com}\\[-.2em] %\faEnvelopeO
-      \MailItem{\phantom{a}}{flore@mpim-bonn.mpg.de}\\[.5em] %\phantom
-      \Item{\faGithub}{tetrapharmakon}\newline
-      \Item{\faSkype}{\texttt{fosco.loregian}}\newline %\faSkype
-   \end{minipage}
-\end{flushright}
+\begin{center}
+   \colorbox{gray!40}{\titlefont\Large\bf Curriculum vit\ae} \\[2mm]
+   last updated {\bf \today}
+\end{center}
+\input{src/S-address.tex}
 
 \SectionOfCV{Research Interests}
 \begin{itemize}
-   \item[] Category theory and everything about.
+   \item[] Category theory and everything about it.
+   \begin{itemize}
+      \item Stable ∞-categories,
+      \item homotopical algebra,
+      \item Groth(endieck) derivators,
+      \item 2-categories and formal category theory,
+      \item locally presentable and accessible categories,
+      \item type theory and functional programming
+   \end{itemize} 
 \end{itemize}
 \vspace{\fill}\noindent%
 
 \SectionOfCV[2012 | today]{Appointments}
-\input{appointments.tex}
+\input{src/S-appointments.tex}
 
 \SectionOfCV[2008 | 2012]{Education}
-\input{education.tex}
+\input{src/S-education.tex}
 \newpage
 
 \SectionOfCV{Publications}
-\input{publications.tex}
+\input{src/S-publications.tex}
 
 \SectionOfCV{Preprints}
-\input{preprints.tex}
+\input{src/S-preprints.tex}
 
 \SectionOfCV{Talks}
-\input{talks.tex}
+\input{src/S-talks.tex}
 
 \SectionOfCV{Teaching \& Organizational activities}
-\input{teaching.tex}
+\input{src/S-teaching.tex}
 
 \SectionOfCV{Other activities}
-\input{revsup.tex}
+\input{src/S-revsup.tex}
+\vspace{\fill}
+\begin{flushright}
+\includegraphics[width=.35\textwidth]{../firma1.png}
+\end{flushright}
 
 \end{document}
