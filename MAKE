@@ -1,2 +1,0 @@
-latexmk -xelatex civi.tex
-latexmk -xelatex short-civi.tex
