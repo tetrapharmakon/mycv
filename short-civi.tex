@@ -1,9 +1,9 @@
-% !TEX program = xelatex 
+% !TEX program = xelatex
 \documentclass[10pt,a4paper]{article}
 \input{layout.tex}
 
 \renewcommand{\PubItem}[4][\swallow]{%
- {\color{blue!35!black} \textbf{#2}} % title
+ {\header{#2}} % title
  \hfill           %
  {#1 {|}}\newline % joint work (optional)
  #3               % address/DOI
@@ -14,7 +14,7 @@
 
 \begin{document}
 \begin{center}
-   \colorbox{gray!40}{\titlefont\Large\bf Curriculum vit\ae} \\[2mm]
+   \colorbox{gray!10}{\titlefont\Large\bf Curriculum vit\ae} \\[2mm]
    last updated {\bf \today}
 \end{center}
 
