@@ -1,2 +1,2 @@
 # mycv
-The repo that contains my CV
+A template for a CV that does not make your eyes bleed.
