@@ -1,0 +1,34 @@
+% !TEX program = xelatex
+\documentclass[10pt,a4paper]{article}
+\input{layout.tex}
+\begin{document}
+\begin{center}
+   \colorbox{gray!10}{\titlefont\Large\bf Curriculum vit\ae} \\[2mm]
+   last updated {\bf \today}
+\end{center}
+\input{src/S-address.tex}
+
+\input{src/S-resint.tex}
+\SectionOfCV[from | to]{Current position}
+\input{src/S-present.tex}
+\SectionOfCV[from | to]{Past positions}
+\input{src/S-appointments.tex}
+\SectionOfCV[from | to]{Education}
+\input{src/S-education.tex}
+
+\SectionOfCV{Publications}
+\input{src/S-publications.tex}
+\SectionOfCV{Preprints}
+\input{src/S-preprints.tex}
+\SectionOfCV{Talks}
+\input{src/S-talks.tex}
+\SectionOfCV{Teaching \& Organizational activities}
+\input{src/S-teaching.tex}
+\SectionOfCV{Other activities}
+\input{src/S-revsup.tex}
+\vspace{\fill}
+\begin{flushright}
+\includegraphics[width=.35\textwidth]{firma1.png}
+\end{flushright}
+
+\end{document}

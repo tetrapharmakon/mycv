@@ -1,0 +1,96 @@
+\usepackage{ xcolor
+           , amsmath
+           , amssymb
+           , amsfonts
+           , academicons
+           , hyperref
+           , enumitem 
+           }
+
+\definecolor{myblue}{HTML}{0E9AA7}
+\definecolor{myred}{HTML}{FE8A71}
+
+\newcommand{\header}[2][50]{\textcolor{myblue! #1 !black}{\textbf{#2}}}
+
+\newenvironment{eyenumerate}%
+{ \begin{enumerate}[label=\arabic* | , itemsep=1pt] }%
+  { \end{enumerate}\vspace{1em} }
+
+\usepackage{mathspec}
+\newfontfamily{\FA}{FontAwesome}
+\setmainfont{Roboto Condensed Light}
+\setmonofont[Scale=.875]{Fira Mono}
+
+\newfontfamily{\titlefont}{Julius Sans One}
+
+\pagestyle{empty}
+\newcommand{\Item}[2]{#2 \hfill #1}
+
+\usepackage{graphicx}
+\def\faSkype {\includegraphics{icons/faSkype.pdf}}
+\def\faUser  {\includegraphics{icons/faUser.pdf}}
+\def\faMSE   {\includegraphics{icons/faMSE.pdf}}
+\def\faGithub{\includegraphics{icons/faGithub.pdf}}
+\def\teach   {\includegraphics{icons/faMortarBoard.pdf}}
+\def\scien   {\includegraphics{icons/faMedkit.pdf}}
+
+\newcommand{\MailItem}[2]{\texttt{\textcolor{myred!50!black}{#2}} \hfill }
+\newcommand{\SectionOfCV}[2][]{
+ \noindent\colorbox{gray!10}{{\titlefont\Large #2}} %
+ { \color{gray!10}\hrulefill } %
+ { \titlefont\Large #1 }%
+ \newline
+}
+
+\newcommand{\arXiv}[1]{\href{http://arxiv.org/abs/#1}{#1}}
+
+\newcommand{\swallow}[1]{}
+\newcommand{\with}{\textcolor{gray!40}{w/}}
+\newcommand{\PubItem}[4][\swallow]{%
+ {\header{#2}} % title
+ \hfill %
+ {#1 {|}}\newline % joint work (optional)
+ #3 % address/DOI
+ \newline{\footnotesize #4}% abstract
+}
+
+\newcommand{\JobItem}[3]{%
+ \header{#1} %
+ \hspace{\fill} %
+ \colorbox{gray!10}{%
+  \hrulefill #2%
+ }\newline #3}
+
+\newcommand{\EduItem}[4]{%
+ \header{#1} %
+ \hfill %
+ \colorbox{gray!10}{#2}\newline %
+ #3\newline %
+ {\small \textbf{thesis}: \textit{#4}}}
+
+\newcommand{\TalkItem}[3]{%
+  \header{#1}%
+  \hfill \colorbox{gray!10}{#2}%
+  \newline #3}
+
+\newcommand{\RevItem}[3]{%
+  \header{#1}%
+  \hfill \emph{#2}%
+  \newline #3}
+
+\newcommand{\MiscItem}{\relax}
+
+\hypersetup{ colorlinks = true
+           , linkcolor  = myred!50!black
+           , urlcolor   = myred!50!black
+           }
+
+\usepackage[ top    = 3cm
+           , bottom = 4.5cm
+           , left   = 3cm
+           , right  = 3cm
+           ]{geometry}
+
+
+
+\newcommand{\doi}[1]{\href{https://doi.org/#1}{doi:#1}}

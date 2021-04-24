@@ -1,0 +1,47 @@
+% !TEX program = xelatex
+\documentclass[10pt,a4paper]{article}
+\input{layout.tex}
+
+\renewcommand{\PubItem}[4][\swallow]{%
+ {\header{#2}} % title
+ \hfill           %
+ {#1 {|}}\newline % joint work (optional)
+ #3               % address/DOI
+                  % \newline{\footnotesize #4}% abstract
+}
+
+
+
+\begin{document}
+\begin{center}
+   \colorbox{gray!10}{\titlefont\Large\bf Curriculum vit\ae} \\[2mm]
+   last updated {\bf \today}
+\end{center}
+
+\input{src/S-address.tex}
+
+\input{src/S-resint.tex}
+\SectionOfCV{Current position}
+\input{src/S-present.tex}
+\SectionOfCV{Past positions}
+\input{src/S-appointments.tex}
+
+\SectionOfCV[2008 | 2012]{Education}
+\input{src/S-education.tex}
+\SectionOfCV{Publications}
+\input{src/S-publications.tex}
+\SectionOfCV{Preprints}
+\input{src/S-preprints.tex}
+\SectionOfCV{Talks}
+\input{src/S-talks.tex}
+\SectionOfCV{Teaching \& Organizational activities}
+\input{src/S-teaching.tex}
+\SectionOfCV{Other activities}
+\input{src/S-revsup.tex}
+
+\vspace{\fill}
+\begin{flushright}
+\includegraphics[width=.35\textwidth]{firma1.png}
+\end{flushright}
+
+\end{document}
